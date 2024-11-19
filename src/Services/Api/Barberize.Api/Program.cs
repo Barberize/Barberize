@@ -41,7 +41,7 @@ app.UseHttpsRedirection();
 
 app.MapCarter();
 
-app.UseExceptionHandler();
+app.UseExceptionHandler(options => { });
 
 // Use modules
 app.UseSettingsModule();

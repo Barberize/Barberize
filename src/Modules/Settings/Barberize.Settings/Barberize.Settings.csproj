@@ -10,4 +10,10 @@
     <ProjectReference Include="..\..\..\Shared\Barberize.Shared\Barberize.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Endpoints\" />
+    <Folder Include="Infrastructure\Persistence\Migrations\" />
+  </ItemGroup>
+
 </Project>
